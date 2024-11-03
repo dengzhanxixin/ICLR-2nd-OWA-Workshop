@@ -1,5 +1,6 @@
 site:
-  name: ICML MFM-EAI Workshop
+  # name: ICML MFM-EAI Workshop
+  name: ICLR 2nd OWA Workshop
   site: 'https://icml-mfm-eai.github.io'
   base: '/'
   trailingSlash: false
@@ -9,14 +10,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: ICML MFM-EAI Workshop
-    template: '%s — ICML MFM-EAI Workshop'
-  description: "ICML MFM-EAI Workshop"
+    default: ICLR 2nd OWA Workshop
+    template: '%s — ICLR 2nd OWA Workshop'
+  description: "ICLR 2nd OWA Workshop"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: ICML MFM-EAI Workshop
+    site_name: ICLR 2nd OWA Workshop
     images:
       - url: '~/assets/images/default.png'
         width: 1200
