@@ -1004,7 +1004,7 @@ const metadata = {
   <!-- new Speakers -->
 
   <Brands
-    id="Speakers & Panelists"
+    id="Speakers"
     title="Speakers & Panelists"
     icons={[]}
     images={[
@@ -1443,6 +1443,7 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
+    id="Q&A"
     title="Submission Q&A"
     items={[
       {
@@ -1760,21 +1761,21 @@ const metadata = {
   </Content> -->
 
   <script>
-    const button = document.getElementById('toggleButton');
-    const content = document.getElementById('content');
-    let isOpen = false;
-    if (button && content) {
-      button.addEventListener('click', () => {
-        if (!isOpen) {
-          content.style.maxHeight = content.scrollHeight + 'px';
-          button.textContent = 'Collapse';
-          isOpen = true;
-        } else {
-          content.style.maxHeight = '';
-          button.textContent = 'Expand';
-          isOpen = false;
-        }
-      });
-    }
+    // const button = document.getElementById('toggleButton');
+    // const content = document.getElementById('content');
+    // let isOpen = false;
+    // if (button && content) {
+    //   button.addEventListener('click', () => {
+    //     if (!isOpen) {
+    //       content.style.maxHeight = content.scrollHeight + 'px';
+    //       button.textContent = 'Collapse';
+    //       isOpen = true;
+    //     } else {
+    //       content.style.maxHeight = '';
+    //       button.textContent = 'Expand';
+    //       isOpen = false;
+    //     }
+    //   });
+    // }
   </script>
 </Layout>
